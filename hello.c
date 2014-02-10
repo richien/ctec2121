@@ -2,8 +2,9 @@
 
 int main()
 {
-	printf("Hello World!\n");
-
+	printf("HELLO WORLD! ");
+	printf("Fare Thee Well!, Quicker Version!!!\n");
+	
 return 0;
 
 }
