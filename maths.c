@@ -5,14 +5,14 @@ return x+y;
 }
 
 int reduceBy(int i, int x){
-	if (x<i)
+	
 	return i-x;
 }
 int divide(int x, int y){
 	if(x!=0)
 	return (float)y/x;
 	else
-	return printf("ERROR!! Division By Zero ");
+	return printf("ERROR!! Division By Zero \n ");
 } 
 int average(int x, int y){
 	return (float)add(x,y)/2;
@@ -26,8 +26,8 @@ int main()
 	printf("Enter two numbers:  \n");
 	scanf("%i",&x);
 	scanf("%i",&y);
-	printf("sum = %i \n  %i reducedBy %i = %i \n divide = %f \n ",add(x,y),x,y,reduceBy(y,x),divide(x,y));
-	printf("Average = %f \n", average(y,x));
+	printf("sum = %i \n  %i reducedBy %i = %i \n divide = %i \n ",add(x,y),y,x,reduceBy(y,x),divide(x,y));
+	printf("Average = %i \n", average(y,x));
 return 0;
 
 
